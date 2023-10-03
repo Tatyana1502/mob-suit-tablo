@@ -46,21 +46,23 @@ nav ul li {
     display: block;
 }
 nav li a { 
-    display: block;
-    margin: 1rem 0;
+   display: block;
+   margin: 1rem 0;
    padding: 2rem 0;
    text-decoration: none;
    color: black;
    background-color: #E2E2E2;
    width: 100%;
-   text-align: center;
+   text-align: center; 
 }
 
 main {
-    /* padding: 4rem; */
     border: 1px solid orange;
     width: 100%;
     border-radius: 10px;
+}
+article{
+    padding: 4rem;
 }
 #mon_id {
     text-align: center;
@@ -94,7 +96,7 @@ section {
 }
 ol li {
     padding: 0;
-    margin-left: 4rem;
+    margin-left: 1rem;
 }
 
 .galery {
